@@ -1,0 +1,30 @@
+#dubai_home::before {
+    content: "";
+    position: absolute;
+    background: url("../assets/dubai_high_res.jpg")  no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#dubai_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#dubai_home h1{
+    font-size: 10rem;
+    text-shadow: 0px 0px 10px black;
+}
+.Resorts{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.Resorts>h1{
+    margin: 50px 0px;
+}
