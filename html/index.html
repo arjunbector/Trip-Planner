@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/destinations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/home_resorts.css">
 </head>
 
 <body>
@@ -19,8 +20,8 @@
         <nav id="navbar">
             <ul>
                 <li class="item"><a class="navbar_btn active" href="./index.html">Home</a></li>
-                <li class="item"><a class="navbar_btn " href="#">Tours</a></li>
-                <li class="item"><a class="navbar_btn " href="#">Services</a></li>
+                <li class="item"><a class="navbar_btn " href="#home_resorts">Resorts</a></li>
+                <li class="item"><a class="navbar_btn " href="#">Trips</a></li>
                 <li class="item"><a class="navbar_btn " href="#">Contact</a></li>
             </ul>
         </nav>
@@ -40,10 +41,10 @@
         
         <div id="destination_cards">
         <div class="card egypt_card">
-            <div class="card_img"><img src="../assets/egypt.jpg" alt="Egypt"></div>
+            <div class="card_img" onclick="location.href='./egypt.html'"><img src="../assets/egypt.jpg" alt="Egypt"></div>
             <div class="card_heading">Egypt</div>
             <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident quibusdam ipsa neque maxime exercitationem voluptatem sint incidunt modi aliquid.</div>
-            <div class="see_details"><a href="">See Details...</a></div>
+            <div class="see_details"><a href="./egypt.html">See Details...</a></div>
         </div>
         <div class="card dubai_card" onclick="location.href='./dubai.html'">
             <div class="card_img"><img src="../assets/dubai.jpg" alt="Dubai"></div>
@@ -51,13 +52,36 @@
             <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident quibusdam ipsa neque maxime exercitationem voluptatem sint incidunt modi aliquid.</div>
             <div class="see_details"><a href="./dubai.html">See Details...</a></div>
         </div>
-        <div class="card france_card">
+        <div class="card france_card" onclick="location.href='./france.html'">
             <div class="card_img"><img src="../assets/france.jpg" alt="France"></div>
             <div class="card_heading">France</div>
             <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident quibusdam ipsa neque maxime exercitationem voluptatem sint incidunt modi aliquid.</div>
-            <div class="see_details"><a href="">See Details...</a></div>
+            <div class="see_details"><a href="./france.html">See Details...</a></div>
         </div>
     </div>
+    </section>
+    <section id="home_resorts">
+        <h1 class="large bold center" style="font-family: 'Poppins'; ">Our Resorts</h1>
+        <div class="home_resorts_cards">
+            <div class="card">
+                <div class="card_img"><img src="../assets/dubai_resort2.jpg" alt=""></div>
+                <div class="card_heading">Resort 1</div>
+                <div class="card_sub_heading center">Dubai</div>
+                <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis. Consequuntur corrupti perspiciatis illo doloremque? Libero labore minima error esse.</div>
+            </div>
+            <div class="card">
+                <div class="card_img"><img src="../assets/egypt_resort2.jpg" alt=""></div>
+                <div class="card_heading ">Resort 2</div>
+                <div class="card_sub_heading center">Egypt</div>
+                <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis. Consequuntur corrupti perspiciatis illo doloremque? Libero labore minima error esse.</div>
+            </div>
+            <div class="card">
+                <div class="card_img"><img src="../assets/france_resort1.jpg" alt=""></div>
+                <div class="card_heading">Resort 3</div>
+                <div class="card_sub_heading center">France</div>
+                <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis. Consequuntur corrupti perspiciatis illo doloremque? Libero labore minima error esse.</div>
+            </div>
+        </div>
     </section>
 </body>
 

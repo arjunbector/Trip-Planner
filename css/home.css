@@ -1,4 +1,7 @@
 /*-----Home Section----- */
+html{
+    scroll-behavior: smooth;
+}
 #home::before {
     content: "";
     position: absolute;
