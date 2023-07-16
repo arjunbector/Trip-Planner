@@ -12,12 +12,10 @@
 }
 
 #home {
-    /* border: 2px solid red; */
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     padding: 10% 10px;
-    height: 100px;
+    height: 75vh;
     font-family: 'Poppins';
     justify-content: center;
     align-items: center;
