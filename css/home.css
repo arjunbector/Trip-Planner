@@ -54,7 +54,7 @@ html{
     /* position: absolute; */
     /* right: 45vb; */
     padding: 10px 30px;
-    background-color: rgba(0, 255, 255, 0.336);
+    background-color: rgb(255, 116, 116);
     border-radius: 7px;
     margin: auto;
     margin-top: 40px;
@@ -63,4 +63,7 @@ html{
 .btn:hover{
     cursor: pointer;
     transform: scale(1.02);
+}
+.no-border{
+    border-radius: 0px;
 }

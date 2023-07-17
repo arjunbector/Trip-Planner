@@ -7,3 +7,4 @@ const navbar = `<ul>
 
 document.getElementById("navbar").innerHTML = navbar;
 
+const footer = ``

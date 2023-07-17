@@ -1,0 +1,99 @@
+.page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.845);
+    min-height:300px;
+    height: fit-content;
+    color: #999999;
+}
+
+.footer-heading {
+    font-size: 25px;
+    font-family: 'Poppins';
+    margin: 20px 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #999999;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.wrapper-social-media-links{
+    display: flex;
+    flex-direction: column;
+}
+.social-media-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-media-icon {
+    margin: 0px 7px;
+    color: #999999;
+    font-size: 1.5rem;
+}
+
+.social-media-icon:hover {
+    color: white;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-email-input {
+    color: white;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+    font-size: 20px;
+    margin: 30px 0px;
+    width: 400px;
+    &:focus {
+        outline: none;
+    }
+}
+
+.footer-email-input::-webkit-input-placeholder {
+    color: #797979;
+}
+
+.footer-email-input:focus::-webkit-input-placeholder {
+    color: white;
+}
+.footer-email-input:focus+.animated-underline{
+    transform: scale(1);
+}
+
+.animated-underline{
+    background-color: white;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    top: -32px;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.space{
+    background-color: rgba(0, 0, 0, 0.845);
+    height: 10vh;
+}
