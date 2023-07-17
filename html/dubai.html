@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/location.css">
     <link rel="stylesheet" href="../css/destinations.css">
+    <link rel="stylesheet" href="../css/things_to_do.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         #location_home::before{
@@ -56,7 +57,34 @@
             </div>
         </div>
     </section>
-    <script src="../javascript/navbar.js"></script>
+    <section id="things-to-do">
+        <h1 class="large bold center" style="font-family: 'Poppins';">Things To Explore</h1>
+        <div class="things-to-do-cards">
+            <div class="card" onclick="location.href='https://www.burjkhalifa.ae/en/'">
+                <div class="class_img"><img src="../assets/burj_khalifa.jpg" alt=""></div>
+                 <div class="card_heading">
+                     Burj Khalifa
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+            <div class="card" onclick="location.href='https://museumofthefuture.ae/en'">
+                <div class="class_img"><img src="../assets/museum_of_future.jpg" alt=""></div>
+                 <div class="card_heading">
+                     Museum Of Future
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+            <div class="card" onclick="location.href='http://www.desertsafaridubai.com/'">
+                <div class="class_img"><img src="../assets/desert_safari.jpg" alt=""></div>
+                 <div class="card_heading">
+                     Desert Safari
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+        </div>
+        <button class="btn" onclick="location.href='https://www.visitdubai.com/en/'">Dubai Tourism <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></button>
+    </section>
+    <script src="../javascript/items.js"></script>
 </body>
 
 </html>

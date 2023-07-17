@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/location.css">
     <link rel="stylesheet" href="../css/destinations.css">
+    <link rel="stylesheet" href="../css/things_to_do.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         #location_home::before{
@@ -56,7 +57,34 @@
             </div>
         </div>
     </section>
-    <script src="../javascript/navbar.js"></script>
+    <section id="things-to-do">
+        <h1 class="large bold center" style="font-family: 'Poppins';">Things To Explore</h1>
+        <div class="things-to-do-cards">
+            <div class="card" onclick="location.href='https://www.pyramid-of-giza.com/'">
+                <div class="class_img"><img src="../assets/pyramid_of_giza.jpg" alt=""></div>
+                 <div class="card_heading">
+                    Pyramid Of Giza
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+            <div class="card" onclick="location.href='https://www.dive-hurghada.com/'">
+                <div class="class_img"><img src="../assets/scuba_diving.jpg" alt=""></div>
+                 <div class="card_heading">
+                     Scuba Diving
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+            <div class="card" onclick="location.href='https://egypt.travel/en/attractions/cairo-tower'">
+                <div class="class_img"><img src="../assets/cairo_tower.jpg" alt=""></div>
+                 <div class="card_heading">
+                    Cairo Tower
+                 </div>
+                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt omnis commodi magni! Pariatur rem ex laborum error non?</div>
+             </div>
+        </div>
+        <button class="btn" onclick="location.href='https://www.egypt.travel'">Egypt Tourism <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></button>
+    </section>
+    <script src="../javascript/items.js"></script>
 </body>
 
 </html>

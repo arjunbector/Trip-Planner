@@ -48,3 +48,19 @@ html{
 #searchbox input::placeholder{
     opacity: 0.5;
 }
+.btn{
+    font-size: 1.1rem;
+    display: block;
+    /* position: absolute; */
+    /* right: 45vb; */
+    padding: 10px 30px;
+    background-color: rgba(0, 255, 255, 0.336);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 40px;
+    transition: transform 0.2s;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
