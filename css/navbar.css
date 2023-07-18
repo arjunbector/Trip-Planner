@@ -13,7 +13,12 @@ body {
     /* background-color: black; */
     display: block;
 }
-
+#hamburger-button{
+    display: none;
+}
+#hamburger-menu{
+    display: none;
+}
 #navbar {
 
     background-color: white;

@@ -2,6 +2,66 @@
 .navbar_div{
     display: none;
 }
+#hamburger-button{
+    /* background: transparent; */
+    display:block;
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    color: white;
+    margin: 10px 10px;
+}
+#xmark-button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    /* margin: auto; */
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    color: black;
+    margin: 10px 10px;
+}
+#hamburger-menu{
+    transition: visibility 1s;
+    display: none;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+/* #hamburger-menu i{
+    display: block;
+    margin: auto;
+} */
+#hamburger-menu li{
+    margin: 10px 50px;
+    list-style: none;
+    text-align: center;
+
+}
+#hamburger-menu a{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: black;
+    
+}
+.underline{
+    background-color: rgb(135, 135, 135);
+    display:block;
+    margin: auto;
+    position: relative;
+    height: 1px;
+    width: 150px;
+}
 /* Home Screen */
 #home::before{
     height: 75%;
