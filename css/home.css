@@ -57,7 +57,7 @@ html{
     background-color: rgb(255, 116, 116);
     border-radius: 7px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 0px;
     transition: transform 0.2s;
 }
 .btn:hover{

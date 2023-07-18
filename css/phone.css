@@ -1,0 +1,85 @@
+/* NAVBAR */
+.navbar_div{
+    display: none;
+}
+/* Home Screen */
+#home::before{
+    height: 75%;
+}
+#home{
+    height: 75vh;
+}
+.large{
+    font-size: 3rem;
+}
+#searchbox i{
+    font-size: 1em;
+    padding: 18px;
+}
+#searchbox > input{
+    font-size: 1em;
+    /* max-width: 100px; */
+    width: auto;
+    height: 3em;
+    padding: 0px 45px;
+}
+
+/* CARDS */
+.card{
+    /* margin: 0px 30px; */
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-items: center; */
+    width: auto;
+    min-width: 32 0px;
+    height: 100px;
+}
+.card img{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px 0px 0px 20px;
+}
+.card_info{
+    display:none;
+}
+.card > .card_heading{
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+}
+.card > .card_sub_heading{
+    display: none;
+}
+
+/* Footer */
+#page-footer{
+    flex-direction: column;
+    align-items: center;
+}
+.social-media-links{
+    justify-content: space-between;
+}
+.signup > .btn{
+    margin: 30px auto;
+}
+.signup > h6{
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.footer-email-input{
+    display: block;
+    margin: auto;
+    /* justify-content: center; */
+    width: 300px;
+}
+
+/* Destinations Page */
+
+#location_home h1{
+    font-size: 4rem;
+}
+.things-to-do-cards{
+    flex-direction: column;
+    align-items: center;
+}
