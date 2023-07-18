@@ -1,13 +1,13 @@
 #things-to-do{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 #things-to-do > h1{
     margin: 20px 0px;
 }
 .things-to-do-cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
