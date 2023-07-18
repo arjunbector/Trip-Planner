@@ -37,7 +37,7 @@
 }
 .social-media-links {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 
 .social-media-icon {
@@ -76,7 +76,7 @@
 }
 
 .footer-email-input:focus::-webkit-input-placeholder {
-    color: white;
+    display: none;
 }
 .footer-email-input:focus+.animated-underline{
     transform: scale(1);
