@@ -73,7 +73,10 @@
     /* justify-content: center; */
     width: 300px;
 }
-
+.animated-underline{
+    height: 2px;
+    top: 0px;
+}
 /* Destinations Page */
 
 #location_home h1{
