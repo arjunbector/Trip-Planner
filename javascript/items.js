@@ -54,13 +54,13 @@ const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;
 const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i class="fa-solid fa-bars"></i></button>
 <div id="hamburger-menu">
     <ul>
-        <li class="item"><a href="/index.html" onclick="hideMenu()">Home</a></li>
+        <li class="item"><a href="./index.html" onclick="hideMenu()">Home</a></li>
         <span class="underline"></span>
-        <li class="item"><a href="/index.html#destinations" onclick="hideMenu()">Trips</a></li>
+        <li class="item"><a href="./index.html#destinations" onclick="hideMenu()">Trips</a></li>
         <span class="underline"></span>
-        <li class="item"><a href="/index.html#home_resorts"onclick="hideMenu()">Resorts</a></li>
+        <li class="item"><a href="./index.html#home_resorts"onclick="hideMenu()">Resorts</a></li>
         <span class="underline"></span>
-        <li class="item"><a href="/index.html#page-footer"onclick="hideMenu()">Contact</a></li>
+        <li class="item"><a href="./index.html#page-footer"onclick="hideMenu()">Contact</a></li>
         <span class="underline"></span>
         <button id="xmark-button" onclick="hideMenu()">
             <i class="fa-solid fa-xmark"></i>
