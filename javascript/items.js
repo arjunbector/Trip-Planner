@@ -8,7 +8,6 @@ var page = path.split("/").pop();
     <li class="item"><a class="navbar_btn " href="./index.html#page-footer">Contact</a></li>
     </ul>`;
 
-document.getElementById("navbar").innerHTML = navbar;
 
 const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;">
 <h6 class="footer-heading bold center" style="margin-left: 7px;">Follow Us</h6>
@@ -52,7 +51,24 @@ const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;
     <button class="btn bold no-border">Sign Up</button>
 </div>`;
 
-document.getElementById('page-footer').innerHTML = footer;
+const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i class="fa-solid fa-bars"></i></button>
+<div id="hamburger-menu">
+    <ul>
+        <li class="item"><a href="/index.html" onclick="hideMenu()">Home</a></li>
+        <span class="underline"></span>
+        <li class="item"><a href="/index.html#destinations" onclick="hideMenu()">Trips</a></li>
+        <span class="underline"></span>
+        <li class="item"><a href="/index.html#home_resorts"onclick="hideMenu()">Resorts</a></li>
+        <span class="underline"></span>
+        <li class="item"><a href="/index.html#page-footer"onclick="hideMenu()">Contact</a></li>
+        <span class="underline"></span>
+        <button id="xmark-button" onclick="hideMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </ul>
+</div>`
+
+
 function displayMenu(){
   console.log('Button clicked')
   document.getElementById("hamburger-button").style.display = "none";
@@ -64,3 +80,7 @@ function hideMenu(){
   document.getElementById("hamburger-menu").style.display = "none";
 
 }
+
+document.getElementById("navbar").innerHTML = navbar;
+document.getElementById("hamburger-wrapper").innerHTML = hamburger;
+document.getElementById('page-footer').innerHTML = footer;
