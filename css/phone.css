@@ -94,6 +94,9 @@
     min-width: 32 0px;
     height: 100px;
 }
+.card:hover{
+    transform: none;
+}
 .card img{
     width: 150px;
     height: 100px;
