@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/home_resorts.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="./css/phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="./javascript/items.js"></script>
+    <script defer src="./javascript/scroll_animation.js"></script>
     <style>
         #location_home::before {
             background: url("./assets/dubai_high_res.jpg") no-repeat center center/cover;
@@ -38,7 +40,7 @@
     <section class="Resorts">
         <h1 class="large bold center" style="font-family: Poppins;">Resorts</h1>
         <div class="resorts_cards">
-            <div class="card">
+            <div class="card left-card">
                 <div class="class_img"><img src="./assets/dubai_resort1.jpg" alt=""></div>
                 <div class="card_heading">
                     Resort 1
@@ -46,7 +48,7 @@
                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis ut
                     commodi quidem ratione cupiditate magni beatae repellendus. Explicabo, in!</div>
             </div>
-            <div class="card">
+            <div class="card mid-card">
                 <div class="class_img"><img src="./assets/dubai_resort2.jpg" alt=""></div>
                 <div class="card_heading">
                     Resort 2
@@ -54,7 +56,7 @@
                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis ut
                     commodi quidem ratione cupiditate magni beatae repellendus. Explicabo, in!</div>
             </div>
-            <div class="card">
+            <div class="card right-card">
                 <div class="class_img"><img src="./assets/dubai_resort3.jpg" alt=""></div>
                 <div class="card_heading">
                     Resort 3
@@ -67,7 +69,7 @@
     <section id="things-to-do">
         <h1 class="large bold center" style="font-family: 'Poppins';">Things To Explore</h1>
         <div class="things-to-do-cards">
-            <div class="card" onclick="location.href='https://www.burjkhalifa.ae/en/'">
+            <div class="card left-card" onclick="location.href='https://www.burjkhalifa.ae/en/'">
                 <div class="class_img"><img src="./assets/burj_khalifa.jpg" alt=""></div>
                 <div class="card_heading">
                     Burj Khalifa
@@ -75,7 +77,7 @@
                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt
                     omnis commodi magni! Pariatur rem ex laborum error non?</div>
             </div>
-            <div class="card" onclick="location.href='https://museumofthefuture.ae/en'">
+            <div class="card mid-card" onclick="location.href='https://museumofthefuture.ae/en'">
                 <div class="class_img"><img src="./assets/museum_of_future.jpg" alt=""></div>
                 <div class="card_heading">
                     Museum Of Future
@@ -83,7 +85,7 @@
                 <div class="card_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit minima incidunt
                     omnis commodi magni! Pariatur rem ex laborum error non?</div>
             </div>
-            <div class="card" onclick="location.href='http://www.desertsafaridubai.com/'">
+            <div class="card right-card" onclick="location.href='http://www.desertsafaridubai.com/'">
                 <div class="class_img"><img src="./assets/desert_safari.jpg" alt=""></div>
                 <div class="card_heading">
                     Desert Safari
@@ -97,6 +99,5 @@
     </section>
 </body>
 <footer id="page-footer"></footer>
-<script src="./javascript/items.js"></script>
 
 </html>
