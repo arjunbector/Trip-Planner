@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/home_resorts.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="./css/phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="./javascript/items.js"></script>
+    <script defer src="./javascript/scroll_animation.js"></script>
 </head>
 
 <body>
@@ -41,20 +43,20 @@
 
 
         <div id="destination_cards">
-            <div class="card egypt_card">
-                <div class="card_img" onclick="location.href='./egypt.html'"><img src="./assets/egypt.jpg" alt="Egypt">
+            <div class="card egypt_card left-card" onclick="location.href='./egypt.html'">
+                <div class="card_img"><img src="./assets/egypt.jpg" alt="Egypt">
                 </div>
                 <div class="card_heading">Egypt</div>
                 <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident
                     quibusdam ipsa neque maxime exercitationem voluptatem sint incidunt modi aliquid.</div>
             </div>
-            <div class="card dubai_card" onclick="location.href='./dubai.html'">
+            <div class="card dubai_card mid-card" onclick="location.href='./dubai.html'">
                 <div class="card_img"><img src="./assets/dubai.jpg" alt="Dubai"></div>
                 <div class="card_heading">Dubai</div>
                 <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident
                     quibusdam ipsa neque maxime exercitationem voluptatem sint incidunt modi aliquid.</div>
             </div>
-            <div class="card france_card" onclick="location.href='./france.html'">
+            <div class="card france_card right-card" onclick="location.href='./france.html'">
                 <div class="card_img"><img src="./assets/france.jpg" alt="France"></div>
                 <div class="card_heading">France</div>
                 <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident
@@ -65,21 +67,21 @@
     <section id="home_resorts">
         <h1 class="large bold center" style="font-family: 'Poppins'; ">Our Resorts</h1>
         <div class="home_resorts_cards">
-            <div class="card">
+            <div class="card left-card">
                 <div class="card_img"><img src="./assets/dubai_resort2.jpg" alt=""></div>
                 <div class="card_heading">Resort 1</div>
                 <div class="card_sub_heading center">Dubai</div>
                 <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis.
                     Consequuntur corrupti perspiciatis illo doloremque? Libero labore minima error esse.</div>
             </div>
-            <div class="card">
+            <div class="card mid-card">
                 <div class="card_img"><img src="./assets/egypt_resort2.jpg" alt=""></div>
                 <div class="card_heading ">Resort 2</div>
                 <div class="card_sub_heading center">Egypt</div>
                 <div class="card_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis.
                     Consequuntur corrupti perspiciatis illo doloremque? Libero labore minima error esse.</div>
             </div>
-            <div class="card">
+            <div class="card right-card">
                 <div class="card_img"><img src="./assets/france_resort1.jpg" alt=""></div>
                 <div class="card_heading">Resort 3</div>
                 <div class="card_sub_heading center">France</div>
@@ -91,6 +93,6 @@
     </section>
 </body>
 <footer id="page-footer"></footer>
-<script src="./javascript/items.js"></script>
+
 
 </html>
