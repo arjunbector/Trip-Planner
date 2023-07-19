@@ -61,7 +61,6 @@ const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i cla
         <li class="item"><a href="./index.html#home_resorts"onclick="hideMenu()">Resorts</a></li>
         <span class="underline"></span>
         <li class="item"><a href="./index.html#page-footer"onclick="hideMenu()">Contact</a></li>
-        <span class="underline"></span>
         <button id="xmark-button" onclick="hideMenu()">
             <i class="fa-solid fa-xmark"></i>
         </button>
