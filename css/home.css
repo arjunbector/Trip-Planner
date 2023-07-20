@@ -2,6 +2,9 @@
 html{
     scroll-behavior: smooth;
 }
+.sign-up-btn-wrapper{
+    display: none;
+}
 #home::before {
     content: "";
     position: absolute;
@@ -51,9 +54,8 @@ html{
 .btn{
     font-size: 1.1rem;
     display: block;
-    /* position: absolute; */
-    /* right: 45vb; */
     padding: 10px 30px;
+    color: black;
     background-color: rgb(255, 116, 116);
     border-radius: 7px;
     margin: auto;
