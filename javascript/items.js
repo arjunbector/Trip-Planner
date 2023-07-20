@@ -5,7 +5,7 @@ var page = path.split("/").pop();
     <li class="item"><a class="navbar_btn active" href="./index.html">Home</a></li>
     <li class="item"><a class="navbar_btn " href="./index.html#destinations">Trips</a></li>
     <li class="item"><a class="navbar_btn " href="./index.html#home_resorts">Resorts</a></li>
-    <li class="item"><a class="navbar_btn " href="./index.html#page-footer">Contact</a></li>
+    <li class="item"><a class="navbar_btn " href="#page-footer">Contact</a></li>
     </ul>`;
 
 
@@ -71,12 +71,13 @@ const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i cla
 function displayMenu(){
   console.log('Button clicked')
   document.getElementById("hamburger-button").style.display = "none";
-  document.getElementById("hamburger-menu").style.display = "flex";
+  document.getElementById("hamburger-menu").style.transform = "translateY(0)";
 }
 function hideMenu(){
   console.log("Hide menu clicked");
   document.getElementById("hamburger-button").style.display = "block";
-  document.getElementById("hamburger-menu").style.display = "none";
+  document.getElementById("hamburger-menu").style.transform = "translateY(-100%)";
+
 
 }
 
