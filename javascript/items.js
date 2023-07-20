@@ -43,7 +43,7 @@ const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;
     </a>
 </ul>
 </div>
-<div class="signup"style="min-width: 400px;">
+<div class="signup"style="min-width: 200px;">
 <h6 class="footer-heading bold center">Stay up to the date from us &nbsp<span><i
     class="fa-sharp fa-regular fa-envelope"></i></span></h6>
     <input class="footer-email-input center" type="email" name="email" id="email" placeholder="Enter your e-mail address">
