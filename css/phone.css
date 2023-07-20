@@ -3,7 +3,6 @@
     display: none;
 }
 #hamburger-button{
-    /* background: transparent; */
     text-shadow: 0px 0px 5px black;
     display:block;
     position: absolute;
@@ -18,7 +17,6 @@
     top: 10px;
     left: 10px;
     display: block;
-    /* margin: auto; */
     cursor: pointer;
     background-color: transparent;
     font-size: 40px;
@@ -84,10 +82,8 @@
 
 /* CARDS */
 .card{
-    /* margin: 0px 30px; */
     flex-direction: row;
-    /* justify-content: space-around;
-    align-items: center; */
+    justify-content: space-between;
     width: auto;
     min-width: 320px;
     height: 100px;
@@ -105,15 +101,22 @@
 .card_info{
     display:none;
 }
-.card > .card_heading{
+.card  .card_heading{
     display: block;
     margin: auto;
+    padding: 0px;
     font-size: 1.5rem;
 }
-.card > .card_sub_heading{
+.card  .card_sub_heading{
     display: none;
 }
-
+.resort-location h2{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.card-description{
+    margin: auto;
+}
 /* Footer */
 #page-footer{
     flex-direction: column;
@@ -133,7 +136,6 @@
 .footer-email-input{
     display: block;
     margin: auto;
-    /* justify-content: center; */
     width: 300px;
 }
 .animated-underline{

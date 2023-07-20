@@ -93,7 +93,3 @@
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-.space{
-    background-color: rgba(0, 0, 0, 0.845);
-    height: 10vh;
-}

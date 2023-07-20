@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/location.css">
+    <link rel="stylesheet" href="./css/things_to_do.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/destinations.css">
+    <link rel="stylesheet" href="./css/home_resorts.css">
+    <link rel="stylesheet" href="./css/resorts.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="./css/phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="./javascript/items.js"></script>
+    <script defer src="./javascript/scroll_animation.js"></script>
+    <style>
+        #location_home::before {
+            background: url("./assets/resort_high_res.jpg") no-repeat center center/cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hamburger-wrapper"></div>
+    <div class="navbar_div">
+        <nav id="navbar">
+        </nav>
+    </div>
+    <section id="location_home">
+
+        <h1 class="bold" style="color: white; font-family: 'Poppins';">RESORTS</h1>
+
+    </section>
+    <section class="Resorts">
+        <h1 class="large bold center" style="font-family: Poppins;">Highest Rating</h1>
+        <div class="resorts_cards">
+            <div class="card left-card">
+                <div class="class_img"><img src="./assets/france_resort1.jpg" alt=""></div>
+                <div class="card-description">
+                    <div class="card_heading center">
+                        Resort 1
+                    </div>
+                    <div class="resort-location">
+                        <h2>FRANCE</h2>
+                    </div>
+                    <div class="rating">
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card mid-card">
+                <div class="class_img"><img src="./assets/dubai_resort2.jpg" alt=""></div>
+                <div class="card-description">
+                    <div class="card_heading center">
+                        Resort 2
+                    </div>
+                    <div class="resort-location">
+                        <h2>DUBAI</h2>
+                    </div>
+                    <div class="rating">
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="empty-star fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card right-card">
+                <div class="class_img"><img src="./assets/egypt_resort2.jpg" alt=""></div>
+                <div class="card-description">
+                    <div class="card_heading center">
+                        Resort 3
+                    </div>
+                    <div class="resort-location">
+                        <h2>EGYPT</h2>
+                    </div>
+                    <div class="rating">
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="full-star fa-solid fa-star"></i>
+                        <i class="empty-star fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer id="page-footer"></footer>
+
+</html>
