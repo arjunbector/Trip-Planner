@@ -12,7 +12,7 @@ Trip-Planner is a web application that allows users to explore different trip de
 
 ## Live Demo
 
-Experience the live demo [here](https://arjunbector.github.io/Trip-Planner/)
+Experience the live demo <a href = "https://arjunbector.github.io/Trip-Planner/" target = "_blank">here</a>
 
 ## Installation
 
