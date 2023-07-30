@@ -87,13 +87,16 @@
     font-size: 1em;
     padding: 18px;
 }
-#searchbox > input{
+#searchbox  input{
     font-size: 1em;
-    /* max-width: 100px; */
     width: auto;
     height: 3em;
     padding: 0px 45px;
 }
+#search-results{
+    width: 275px;
+}
+
 
 /* CARDS */
 .card{

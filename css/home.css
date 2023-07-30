@@ -43,15 +43,41 @@ html{
 #searchbox input {
     display: inline;
     border-radius: 40px;
-    width: 30em;
+    width: 40rem;
     height: 4em;
     text-align: left;
     padding: 0px 90px;
     font-size: 20px;
 }
 #searchbox input::placeholder{
+    position: relative;
     opacity: 0.5;
 }
+
+
+#search-results{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    z-index: -1;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 50rem;
+    border-radius: 0px 0px 40px 40px;
+    align-items: center;
+
+}
+.search-result-div{
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 50px;
+    color: rebeccapurple;
+}
+
+
+
 .btn{
     font-size: 1.1rem;
     display: block;
