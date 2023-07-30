@@ -48,7 +48,7 @@ const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;
     class="fa-sharp fa-regular fa-envelope"></i></span></h6>
     <input class="footer-email-input center" type="email" name="email" id="email" placeholder="Enter your e-mail address">
     <span class="animated-underline"></span>
-    <button class="btn bold no-border">Sign Up</button>
+    <button class="btn footer-btn">Sign Up</button>
 </div>`;
 
 const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i class="fa-solid fa-bars"></i></button>
