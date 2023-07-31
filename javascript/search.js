@@ -29,5 +29,4 @@ document.getElementById("search-input").addEventListener('input', ()=>{
         document.getElementById("search-results").innerHTML = output;
         })
     }
-    console.log(user_input);
-}
+})
