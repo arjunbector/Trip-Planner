@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script defer src="./javascript/items.js"></script>
     <script defer src="./javascript/scroll_animation.js"></script>
+    <script defer src="./javascript/search.js"></script>
 </head>
 
 <body>
@@ -38,7 +39,11 @@
         <br>
         <div id="searchbox">
             <span><i class="fa-solid fa-magnifying-glass icon"></i></span>
-            <input type="text" placeholder="Where do u wanna go?">
+            <input id="search-input" type="text" placeholder="Where do u wanna go?">
+                <div id="search-results">
+                    <div class="search-result-div" ></div>
+                    <div class="search-result-div">DUBAI</div>
+            </div>
         </div>
 
     </section>
