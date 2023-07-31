@@ -39,10 +39,8 @@ html{
     color: black;
     font-size: 2em;
     padding: 25px;
-    z-index: 3;
 }
 #searchbox input {
-    position: relative;
     display: inline;
     border-radius: 40px;
     width: 40rem;
@@ -50,7 +48,6 @@ html{
     text-align: left;
     padding: 0px 90px;
     font-size: 20px;
-    z-index: 2;
 }
 #searchbox input::placeholder{
     position: relative;
@@ -60,11 +57,9 @@ html{
 
 #search-results{
     position: relative;
-    border: 1px solid black;
     top: -10px;
     left: 10px;
-    height: fit-content;
-    z-index: 0;
+    z-index: -1;
     display: flex;
     display: none;
     flex-direction: column;
@@ -75,29 +70,13 @@ html{
 
 }
 .search-result-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 0px 40px 40px;
-    margin-top: 20px;
-    width: 100%;
     font-weight: bold;
     font-size: 1.5rem;
     height: 50px;
     color: rebeccapurple;
 }
-.search-result-div:hover{
-    background-color: rgb(225, 225, 225);
-    border-radius: 0px;
-    cursor: pointer;
-}
-.search-result-div:last-child:hover{
-    border-radius: 0px 0px 40px 40px;
-}
 
-.no-hover:hover{
-    background-color: white;
-}
+
 
 .btn{
     font-size: 1.1rem;
