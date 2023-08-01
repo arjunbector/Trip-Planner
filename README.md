@@ -8,6 +8,7 @@ Trip-Planner is a web application that allows users to explore different trip de
 
 - **Destination Gallery:** Browse through a curated collection of stunning trip destinations.
 - **Destination Details:** Click on a destination card to view more information, including a brief description, images, and key attractions.
+- **Search-Functionality:** Use the search bar to quickly find specific destinations.
 - **User-Friendly:** The application offers an easy-to-use and responsive design, making it accessible on various devices.
 
 ## Live Demo
