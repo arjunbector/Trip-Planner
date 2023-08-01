@@ -117,6 +117,9 @@ html{
     cursor: pointer;
     transform: scale(1.02);
 }
+.btn:active{
+    transform: scale(0.9);
+}
 .no-border{
     border-radius: 0px;
 }
