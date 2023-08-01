@@ -1,27 +1,4 @@
-const locations = [
-    {
-        dest : "dubai",
-        href : "./dubai.html",
-    },
-    {
-        dest : "france",
-        href : "./france.html",
-    },
-    {
-        dest : "egypt",
-        href : "./egypt.html",
-    },
-    {
-        dest : "india",
-        href : "./work.html",
-    },
-    {
-        dest : "indonesia",
-        href : "./work.html",
-    },
-];
-
-
+import {locations} from "./destinations.js";
 
 document.getElementById("search-input").addEventListener('input', ()=>{
     let user_input = document.getElementById("search-input").value.toLowerCase();
