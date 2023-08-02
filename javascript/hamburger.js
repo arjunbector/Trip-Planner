@@ -13,4 +13,12 @@ const hamburger = `<button id="hamburger-button"  onclick="displayMenu()"><i cla
         </button>
     </ul>
 </div>`
-export default hamburger;
+function displayMenu(){
+    document.getElementById("hamburger-button").style.display = "none";
+    document.getElementById("hamburger-menu").style.transform = "translateY(0)";
+  }
+  function hideMenu(){
+    document.getElementById("hamburger-button").style.display = "block";
+    document.getElementById("hamburger-menu").style.transform = "translateY(-100%)";
+  }
+export {hamburger, displayMenu, hideMenu};
