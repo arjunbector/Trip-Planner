@@ -24,10 +24,10 @@ const footer = `<div class="wrapper-social-media-links" style="min-width: 200px;
 <div class="get-in-touch"style="min-width: 300px;">
 <h6 class="footer-heading bold center">Get In Touch</h6>
 <ul class="footer-list">
-    <a href="" class="footer-link">
+    <a href="mailto:examplemail1@email.com" class="footer-link">
         <li class="footer-list-items center">examplemail1@email.com</li>
     </a>
-    <a href="" class="footer-link">
+    <a href="mailto:examplemail2@email.com" class="footer-link">
         <li class="footer-list-items center">examplemail2@email.com</li>
     </a>
 </ul>

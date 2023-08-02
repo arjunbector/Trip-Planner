@@ -1,4 +1,5 @@
 import {locations} from "./destinations.js";
+import toTitleCase from "./titleCase.js";
 
 document.getElementById("search-input").addEventListener('input', ()=>{
     let user_input = document.getElementById("search-input").value.toLowerCase();
@@ -12,7 +13,6 @@ document.getElementById("search-input").addEventListener('input', ()=>{
     locations.forEach((dest_object)=>{
         if (dest_object.dest.includes(user_input)){
             search_arr.push(dest_object)
-            console.log(search_arr);
         }
     })
     let output = "";
@@ -23,7 +23,7 @@ document.getElementById("search-input").addEventListener('input', ()=>{
     else{
         output = `<div></div>` 
         search_arr.forEach((dest)=>{
-            output += `<div class="search-result-div"><a href=${dest.href}>${dest.dest.toUpperCase()}</a></div>`
+            output += `<div class="search-result-div"><a href=${dest.href}>${toTitleCase(dest.dest)}</a></div>`
         document.getElementById("search-results").innerHTML = output;
         })
     }
